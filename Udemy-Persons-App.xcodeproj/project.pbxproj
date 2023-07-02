@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		AEC58E2E2A50AB00005A6204 /* Udemy_Persons_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E2D2A50AB00005A6204 /* Udemy_Persons_AppApp.swift */; };
-		AEC58E302A50AB00005A6204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E2F2A50AB00005A6204 /* ContentView.swift */; };
+		AEC58E302A50AB00005A6204 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E2F2A50AB00005A6204 /* Anasayfa.swift */; };
 		AEC58E322A50AB02005A6204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC58E312A50AB02005A6204 /* Assets.xcassets */; };
 		AEC58E352A50AB02005A6204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC58E342A50AB02005A6204 /* Preview Assets.xcassets */; };
+		AEC58E3C2A50ABAA005A6204 /* KisiDetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E3B2A50ABAA005A6204 /* KisiDetaySayfa.swift */; };
+		AEC58E3E2A50ABBF005A6204 /* KisiKayitSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E3D2A50ABBF005A6204 /* KisiKayitSayfa.swift */; };
+		AEC58E402A50ABD0005A6204 /* Kisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC58E3F2A50ABD0005A6204 /* Kisi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEC58E2A2A50AB00005A6204 /* Udemy-Persons-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy-Persons-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC58E2D2A50AB00005A6204 /* Udemy_Persons_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Persons_AppApp.swift; sourceTree = "<group>"; };
-		AEC58E2F2A50AB00005A6204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEC58E2F2A50AB00005A6204 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		AEC58E312A50AB02005A6204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEC58E342A50AB02005A6204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEC58E3B2A50ABAA005A6204 /* KisiDetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetaySayfa.swift; sourceTree = "<group>"; };
+		AEC58E3D2A50ABBF005A6204 /* KisiKayitSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitSayfa.swift; sourceTree = "<group>"; };
+		AEC58E3F2A50ABD0005A6204 /* Kisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				AEC58E2D2A50AB00005A6204 /* Udemy_Persons_AppApp.swift */,
-				AEC58E2F2A50AB00005A6204 /* ContentView.swift */,
+				AEC58E2F2A50AB00005A6204 /* Anasayfa.swift */,
+				AEC58E3B2A50ABAA005A6204 /* KisiDetaySayfa.swift */,
+				AEC58E3D2A50ABBF005A6204 /* KisiKayitSayfa.swift */,
+				AEC58E3F2A50ABD0005A6204 /* Kisi.swift */,
 				AEC58E312A50AB02005A6204 /* Assets.xcassets */,
 				AEC58E332A50AB02005A6204 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC58E302A50AB00005A6204 /* ContentView.swift in Sources */,
+				AEC58E3C2A50ABAA005A6204 /* KisiDetaySayfa.swift in Sources */,
+				AEC58E3E2A50ABBF005A6204 /* KisiKayitSayfa.swift in Sources */,
+				AEC58E302A50AB00005A6204 /* Anasayfa.swift in Sources */,
 				AEC58E2E2A50AB00005A6204 /* Udemy_Persons_AppApp.swift in Sources */,
+				AEC58E402A50ABD0005A6204 /* Kisi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
